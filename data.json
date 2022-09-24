@@ -1,0 +1,111 @@
+{
+  "username": "aminm",
+  "employeeid": "123456",
+  "email": "aminm@deshaw.com",
+  "slackid": "23456",
+  "headset": {
+    "loggedDate": "2019-03-01",
+    "collectedDate": "2019-03-01",
+    "serialno": "123456",
+    "model": ["Jabra", "cisco"],
+    "status": [
+      "logged",
+      "assigned",
+      "awaiting-customer",
+      "awaiting-internal-review",
+      "closed"
+    ]
+  },
+  "keyboard": {
+    "loggedDate": "2019-03-01",
+    "collectedDate": "2019-03-01",
+    "serialno": "123456",
+    "model": ["TVS Gold", "logitech", "dell", "microsoft"],
+    "status": [
+      "logged",
+      "assigned",
+      "awaiting-customer",
+      "awaiting-internal-review",
+      "closed"
+    ]
+  },
+  "mouse": {
+    "loggedDate": "2019-03-01",
+    "collectedDate": "2019-03-01",
+    "serialno": "123456",
+    "model": ["dell", "mx master", "wireless"],
+    "status": [
+      "logged",
+      "assigned",
+      "awaiting-customer",
+      "awaiting-internal-",
+      "closed"
+    ]
+  },
+  "wfh": {
+    "monitor": {
+      "loggedDate": "2019-03-01",
+      "serialno": "123456",
+      "collectedDate": "2019-03-01",
+      "model": "Dell",
+      "size": ["27inch", "24inch"],
+      "status": [
+        "logged",
+        "assigned",
+        "awaiting-customer",
+        "awaiting-internal",
+        "closed"
+      ]
+    },
+    "laptop": {
+      "loggedDate": "2019-03-01",
+      "serialno": "123456",
+      "collectedDate": "2019-03-01",
+      "model": "Dell",
+      "status": [
+        "logged",
+        "assigned",
+        "awaiting-customer",
+        "awaiting-internal",
+        "closed"
+      ]
+    },
+    "spkit": {
+      "loggedDate": "2019-03-01",
+      "collectedDate": "2019-03-01",
+      "serialno": "123456",
+      "model": "Dell",
+      "status": [
+        "logged",
+        "assigned",
+        "awaiting-customer",
+        "awaiting-internal",
+        "closed"
+      ]
+    },
+    "ipad-set": {
+      "loggedDate": "2019-03-01",
+      "collectedDate": "2019-03-01",
+      "serialno": "123456",
+      "model": "Dell",
+      "pencil": {
+        "loggedDate": "2019-03-01",
+        "serialno": "123456",
+        "status": [
+          "logged",
+          "assigned",
+          "awaiting-customer",
+          "awaiting-internal",
+          "closed"
+        ]
+      },
+      "status": [
+        "logged",
+        "assigned",
+        "awaiting-customer",
+        "awaiting-internal",
+        "closed"
+      ]
+    }
+  }
+}
