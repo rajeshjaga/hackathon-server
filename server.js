@@ -7,25 +7,23 @@ const typeDefs = gql`
     devices: String!
   }
   type Query {
-    user: User!
+    queryUser: [User]!
   }
   type Mutation {
-    addUser(name: String!, devices: String!): User
+    addUser(name: String!, devices: String!): User!
   }
 `;
 
+var user = [];
+
 const resolvers = {
   Query: {
-    user: () => {
-      return {
-        name: "Bob",
-        devices: "laptop",
-      };
-    },
+    queryUser: () => user,
   },
+
   Mutation: {
     addUser: (parent, args) => {
-      user(args.name, args.devices);
+      user.push(args);
       return args;
     },
   },
